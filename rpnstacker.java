@@ -38,10 +38,10 @@ public class rpnstacker {
                 operand2 = stk.pop().toString();
 
                 switch(st){
-                    case "+": stk.push(String.valueOf(Integer.parseInt(operand1) + Integer.parseInt(operand2))); break;
-                    case "-": stk.push(String.valueOf(Integer.parseInt(operand1) - Integer.parseInt(operand2))); break;
-                    case "*": stk.push(String.valueOf(Integer.parseInt(operand1) * Integer.parseInt(operand2))); break;
-                    case "/": stk.push(String.valueOf(Integer.parseInt(operand1) / Integer.parseInt(operand2))); break;
+                    case "+": stk.push(String.valueOf(Integer.parseInt(operand2) + Integer.parseInt(operand1))); break;
+                    case "-": stk.push(String.valueOf(Integer.parseInt(operand2) - Integer.parseInt(operand1))); break;
+                    case "*": stk.push(String.valueOf(Integer.parseInt(operand2) * Integer.parseInt(operand1))); break;
+                    case "/": stk.push(String.valueOf(Integer.parseInt(operand2) / Integer.parseInt(operand1))); break;
                 }
             }
 
