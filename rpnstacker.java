@@ -19,7 +19,7 @@ public class rpnstacker {
     {
 
         File file = new File(
-            "E:/2021.2/Compiladoes/Calc1.stk");
+            "./Calc1.stk");
 
         BufferedReader br = new BufferedReader(new FileReader(file));
 
